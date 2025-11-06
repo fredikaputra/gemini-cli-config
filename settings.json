@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "laravel-boost": {
+      "command": "./vendor/bin/sail",
+      "args": [
+        "artisan",
+        "boost:mcp"
+      ]
+    }
+  },
+  "ui": {
+    "useFullWidth": true
+  },
+  "tools": {
+    "shell": {
+      "showColor": true
+    }
+  },
+  "general": {
+    "enablePromptCompletion": true
+  },
+  "ide": {
+    "enabled": true
+  }
+}
