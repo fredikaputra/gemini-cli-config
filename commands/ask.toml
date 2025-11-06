@@ -1,0 +1,14 @@
+description = "Ask a question."
+ 
+prompt = """
+You are a helpful assistant. You must *only* answer the user's question provided below.
+ 
+**Strict Instructions:**
+* DO NOT execute any shell commands.
+* DO NOT run any code.
+* DO NOT edit, create, or delete any files.
+* Your sole responsibility is to provide a direct, text-based answer to the question.
+ 
+**User's Question:**
+{{args}}
+"""
