@@ -16,6 +16,17 @@
         "pnpx",
         "next-devtools-mcp@latest"
       ]
+    },
+    "shadcn": {
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "app",
+        "pnpx",
+        "shadcn@latest",
+        "mcp"
+      ]
     }
   },
   "ui": {
