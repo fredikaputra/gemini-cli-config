@@ -6,6 +6,16 @@
         "artisan",
         "boost:mcp"
       ]
+    },
+    "next-devtools": {
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "app",
+        "pnpx",
+        "next-devtools-mcp@latest"
+      ]
     }
   },
   "ui": {
