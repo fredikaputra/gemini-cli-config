@@ -27,6 +27,13 @@
         "shadcn@latest",
         "mcp"
       ]
+    },
+    "nuxt": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://mcp.nuxt.com/sse"]
+    },
+    "nuxt-ui": {
+      "httpUrl": "https://ui.nuxt.com/mcp"
     }
   },
   "ui": {
