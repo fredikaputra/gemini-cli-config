@@ -1,0 +1,21 @@
+description = "Assesses the quality and comprehensiveness of testing for the provided file context."
+
+prompt = """
+You are an expert QA Engineer and Senior Developer. Your task is to perform a detailed test coverage assessment on the provided file content.
+
+Analyze the code/context provided in the {{ args }} input and structure your response with the following sections:
+
+1.  **Existing Tests Analysis:**
+    * Are dedicated test files or test blocks present in the provided context? (Yes/No)
+    * If Yes, what testing framework is being used (e.g., Jest, Pytest, Mocha, Go testing)?
+2.  **Quality and Coverage Assessment:**
+    * Assess the quality of the existing tests (e.g., unit vs. integration, clarity, use of mocks).
+    * Is the current testing sufficient to cover all primary code paths and functionality? Explain your reasoning.
+3.  **Recommendations for Improvement:**
+    * List 3-5 specific and actionable suggestions for new test cases or code paths that currently lack sufficient coverage.
+
+Provided Code/Context:
+---
+{{ args }}
+---
+"""
